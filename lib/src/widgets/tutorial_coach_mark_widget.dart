@@ -22,8 +22,7 @@ class TutorialCoachMarkWidget extends StatefulWidget {
     this.focusAnimationDuration,
     this.pulseAnimationDuration,
     this.pulseVariation,
-  })  : assert(targets.length > 0),
-        super(key: key);
+  }) : super(key: key);
 
   final List<TargetFocus> targets;
   final Function(TargetFocus)? clickTarget;
